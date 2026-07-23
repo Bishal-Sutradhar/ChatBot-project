@@ -1,4 +1,4 @@
-const getMessage = require("../services/gemini")
+const getMessage = require("../services/gemini.service")
 const chat = async (req, res) => {
 
     const message = req.body.message
