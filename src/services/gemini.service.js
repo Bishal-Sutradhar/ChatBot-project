@@ -1,6 +1,6 @@
 const { GoogleGenAI } = require("@google/genai")
 
-const ai = new GoogleGenAI({});
+const ai = new GoogleGenAI({process.env.GEMINI_API_KEY});
 
 const getMessage = async (message) => {
 
