@@ -5,7 +5,7 @@ const ai = new GoogleGenAI({process.env.GEMINI_API_KEY});
 const getMessage = async (message) => {
 
     const interaction = await ai.interactions.create({
-        model: "gemini-3.6-flash",
+        model: "gemini-2.5-pro",
         input: message
     });
 
